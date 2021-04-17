@@ -38,7 +38,6 @@
 //    float* arr1 - pointer to array of bases
 //	  float* arr2 - pointer to array of exponents
 //
-// cuda kernal function to raise the elements of one array to the power of the elements of another array on the gpu
 __global__
 void raise_to_power(int n, float* arr1, float* arr2)
 {
